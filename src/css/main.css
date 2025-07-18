@@ -1,0 +1,50 @@
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.form > label > input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  padding: 16px;
+  margin-right: 8px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+.form > label > input:hover,
+.form > label > input:focus {
+  border: 1px solid #000000;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 91px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background: #6c8cff;
+}
