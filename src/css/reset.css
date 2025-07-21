@@ -38,3 +38,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  background: linear-gradient(to right, #fceff9, #e0c3fc);
+}
